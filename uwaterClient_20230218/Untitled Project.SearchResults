@@ -1,0 +1,9 @@
+---- fd_4 Matches (8 in 2 files) ----
+Globa.h (include):	int fd_4;
+Main.c:	send_message_to_uart(uart.fd_4,"admin\n",7);
+Main.c:	send_message_to_uart(uart.fd_4,"123456\n",8);
+Main.c:	send_message_to_uart(uart.fd_4,buf,strlen(buf));
+Main.c:			send_message_to_uart(uart.fd_4,"at&w\n",6);
+Main.c:	send_message_to_uart(uart.fd_4,"ata\n",5);
+Main.c:		Ret = get_message_from_uart(uart.fd_4,buf,RNS_LEN); //length is 100
+Main.c:			printf("read fd_4 error.\n");
